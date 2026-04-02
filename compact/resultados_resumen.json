@@ -1,0 +1,27 @@
+{
+  "paper": "Continuous model calibration framework for smart-building digital twin: A generative model-based approach",
+  "replica": "Replicacion simplificada basada en simulacion forward + inverso generativo por vecindad",
+  "seed": 42,
+  "n_train": 1600,
+  "n_test": 240,
+  "metrics": {
+    "exp1_clean": {
+      "theta_rmse": 0.23954197557144286,
+      "cvrmse_electricity_pct": 3.6386581450629985,
+      "cvrmse_gas_pct": 4.3117952081911906,
+      "avg_inference_time_sec": 0.08727575083406312
+    },
+    "exp2_noise": {
+      "theta_rmse": 0.25667340417246925,
+      "cvrmse_electricity_pct": 4.225970809091055,
+      "cvrmse_gas_pct": 4.494109795604869,
+      "avg_inference_time_sec": 0.08878464749844474
+    },
+    "exp3_noise_missing": {
+      "theta_rmse": 0.2968772187253567,
+      "cvrmse_electricity_pct": 9.514447241758822,
+      "cvrmse_gas_pct": 5.821795987157109,
+      "avg_inference_time_sec": 0.08863449875025253
+    }
+  }
+}
